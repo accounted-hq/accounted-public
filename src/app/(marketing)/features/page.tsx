@@ -1,16 +1,5 @@
-import { Metadata } from "next"
-import { FeatureDetail } from "@/components/site/feature-detail"
-import { 
-  Shield, 
-  Layers, 
-  Lock, 
-  Coins, 
-  Receipt, 
-  Archive,
-  Database,
-  Globe,
-  Plug
-} from "lucide-react"
+import {Metadata} from "next"
+import {FeatureDetail} from "@/components/site/feature-detail"
 
 export const metadata: Metadata = {
   title: "Features",
@@ -20,7 +9,7 @@ export const metadata: Metadata = {
 const features = [
   {
     id: "multi-tenancy-rbac",
-    icon: Shield,
+      icon: "Shield",
     title: "Multi-tenancy & RBAC",
     description: "Complete tenant isolation with role-based access control.",
     details: [
@@ -38,7 +27,7 @@ const features = [
   },
   {
     id: "immutable-journals",
-    icon: Layers,
+      icon: "Layers",
     title: "Immutable Journals",
     description: "Post once, reverse only. Maintain integrity with hash chaining.",
     details: [
@@ -56,7 +45,7 @@ const features = [
   },
   {
     id: "period-controls",
-    icon: Lock,
+      icon: "Lock",
     title: "Period Controls",
     description: "Strict period management with automatic opening balances.",
     details: [
@@ -74,7 +63,7 @@ const features = [
   },
   {
     id: "multi-currency",
-    icon: Coins,
+      icon: "Coins",
     title: "Multi-currency Support",
     description: "Original and booking currency with automated revaluation.",
     details: [
@@ -92,7 +81,7 @@ const features = [
   },
   {
     id: "tax-reporting",
-    icon: Receipt,
+      icon: "Receipt",
     title: "Tax & Reporting",
     description: "Explicit tax handling with country-specific exports.",
     details: [
@@ -110,7 +99,7 @@ const features = [
   },
   {
     id: "bank-import",
-    icon: Database,
+      icon: "Database",
     title: "Bank Import & Dedupe",
     description: "Safe re-imports with external UID and hash matching.",
     details: [
@@ -128,7 +117,7 @@ const features = [
   },
   {
     id: "audit-observability",
-    icon: Archive,
+      icon: "Archive",
     title: "Audit & Observability",
     description: "Comprehensive logging with retention and alerting.",
     details: [
@@ -146,7 +135,7 @@ const features = [
   },
   {
     id: "backups-recovery",
-    icon: Globe,
+      icon: "Globe",
     title: "Backups & Recovery",
     description: "Point-in-time recovery with tested RTO/RPO commitments.",
     details: [
@@ -164,7 +153,7 @@ const features = [
   },
   {
     id: "api-idempotency",
-    icon: Plug,
+      icon: "Plug",
     title: "Public API & Idempotency",
     description: "OAuth-secured API with stable error handling.",
     details: [

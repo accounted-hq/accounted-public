@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Block common crawl paths
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://accounted.app/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1

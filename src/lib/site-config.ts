@@ -2,7 +2,7 @@ export const site = {
   name: "Accounted",
   baseUrl: "https://accounted.app",
   appUrl: "https://my.accounted.app",
-  repoUrl: "https://github.com/yourorg/accountanted",
+    repoUrl: "https://github.com/accounted-hq/accounted-app",
   contactEmail: "contact@accounted.app",
   description: "Open-source, multi-tenant accounting for teams that need security, auditability, and performance.",
   tagline: "Enterprise accounting for modern teams"
