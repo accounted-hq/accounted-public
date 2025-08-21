@@ -1,10 +1,7 @@
-import {Metadata} from "next"
 import {FeatureDetail} from "@/components/site/feature-detail"
+import { generateMetadata, pageMetadata } from "@/lib/metadata"
 
-export const metadata: Metadata = {
-  title: "Features",
-  description: "Deep dive into Accounted's enterprise accounting features: multi-tenancy, immutable journals, period controls, and more."
-}
+export const metadata = generateMetadata(pageMetadata.features)
 
 const features = [
   {

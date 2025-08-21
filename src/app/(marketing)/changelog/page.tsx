@@ -1,13 +1,10 @@
-import {Metadata} from "next"
 import Link from "next/link"
 import {Badge} from "@/components/ui/badge"
 import {formatDate, getAllPosts} from "@/lib/mdx"
 import {Calendar, ExternalLink} from "lucide-react"
+import { generateMetadata, pageMetadata } from "@/lib/metadata"
 
-export const metadata: Metadata = {
-    title: "Changelog",
-    description: "Latest updates, features, and improvements to Accounted. Stay up to date with our product development."
-}
+export const metadata = generateMetadata(pageMetadata.changelog)
 
 export default function ChangelogPage() {
     const posts = getAllPosts('changelog')

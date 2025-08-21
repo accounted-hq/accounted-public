@@ -1,4 +1,3 @@
-import {Metadata} from "next"
 import {PricingTable} from "@/components/site/pricing-table"
 import {FAQAccordion} from "@/components/site/faq-accordion"
 import {Button} from "@/components/ui/button"
@@ -6,11 +5,9 @@ import {Badge} from "@/components/ui/badge"
 import {Download, Github} from "lucide-react"
 import Link from "next/link"
 import {site} from "@/lib/site-config"
+import { generateMetadata, pageMetadata } from "@/lib/metadata"
 
-export const metadata: Metadata = {
-    title: "Pricing",
-    description: "Start on a simple plan. Scale to enterprise with SSO and custom SLAs. Or self-host for full control."
-}
+export const metadata = generateMetadata(pageMetadata.pricing)
 
 export default function PricingPage() {
     return (

@@ -1,13 +1,10 @@
-import {Metadata} from "next"
 import {Badge} from "@/components/ui/badge"
 import {Button} from "@/components/ui/button"
 import {AlertTriangle, Archive, Database, Lock, Shield, Users} from "lucide-react"
 import Link from "next/link"
+import { generateMetadata, pageMetadata } from "@/lib/metadata"
 
-export const metadata: Metadata = {
-    title: "Security",
-    description: "Defense-in-depth with tenant isolation, least privilege, encryption, signed audits, and tested recovery."
-}
+export const metadata = generateMetadata(pageMetadata.security)
 
 const securityFeatures = [
     {

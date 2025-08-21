@@ -1,16 +1,6 @@
 import type { Metadata } from "next";
-import { Nunito, Nunito_Sans } from "next/font/google";
+import { site } from "@/lib/site-config";
 import "./globals.css";
-
-const nunito = Nunito({
-  variable: "--font-nunito",
-  subsets: ["latin"],
-});
-
-const nunitoSans = Nunito_Sans({
-  variable: "--font-nunito-sans",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: {
@@ -29,11 +19,20 @@ export const metadata: Metadata = {
     title: "Accounted - Enterprise accounting for modern teams",
     description: "Open-source, multi-tenant accounting for teams that need security, auditability, and performance.",
     siteName: "Accounted",
+    images: [
+      {
+        url: "/api/og",
+        width: 1200,
+        height: 630,
+        alt: "Accounted - Enterprise accounting for modern teams",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Accounted - Enterprise accounting for modern teams",
     description: "Open-source, multi-tenant accounting for teams that need security, auditability, and performance.",
+    images: ["/api/og"],
   },
 };
 
@@ -42,11 +41,68 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": site.name,
+    "url": site.baseUrl,
+    "logo": `${site.baseUrl}/logo.png`,
+    "description": site.description,
+    "sameAs": [
+      site.repoUrl,
+      site.appUrl
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": site.contactEmail,
+      "contactType": "customer service"
+    }
+  };
+
+  const softwareApplicationSchema = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": site.name,
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web Browser",
+    "description": site.description,
+    "url": site.baseUrl,
+    "applicationSubCategory": "Accounting Software",
+    "softwareVersion": "1.0",
+    "publisher": {
+      "@type": "Organization",
+      "name": site.name,
+      "url": site.baseUrl
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "description": "Open-source accounting software with hosted and self-hosted options"
+    },
+    "softwareHelp": {
+      "@type": "CreativeWork",
+      "url": `${site.baseUrl}/api`
+    }
+  };
+
+  // Sanitize JSON-LD to prevent XSS as recommended by Vercel docs
+  const jsonLd = JSON.stringify([organizationSchema, softwareApplicationSchema])
+    .replace(/</g, '\u003c');
+
   return (
     <html lang="en">
-      <body
-        className={`${nunito.variable} ${nunitoSans.variable} font-sans antialiased`}
-      >
+      <head>
+        <link rel="preconnect" href="https://my.accounted.app" />
+      </head>
+      <body className="font-sans antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: jsonLd
+          }}
+        />
         {children}
       </body>
     </html>

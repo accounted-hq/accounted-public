@@ -12,8 +12,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-nunito-sans)", "system-ui", "sans-serif"],
-        heading: ["var(--font-nunito)", "system-ui", "sans-serif"],
+        sans: ["Nunito Sans Variable", "system-ui", "sans-serif"],
+        heading: ["Nunito Variable", "system-ui", "sans-serif"],
       },
     },
   },

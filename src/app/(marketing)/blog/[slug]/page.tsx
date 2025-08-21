@@ -28,9 +28,45 @@ export async function generateMetadata({params}: BlogPostPageProps): Promise<Met
         return {}
     }
 
+    const url = `https://accounted.app/blog/${slug}`
+    const fullTitle = `${post.matter.title} | Accounted`
+    
+    // Generate OG image URL with custom parameters
+    const ogImageParams = new URLSearchParams({
+        title: post.matter.title,
+        description: post.matter.description || "",
+        page: "Blog",
+    })
+    const ogImageUrl = `/api/og?${ogImageParams.toString()}`
+
     return {
         title: post.matter.title,
         description: post.matter.description,
+        openGraph: {
+            type: "article",
+            locale: "en_US",
+            url,
+            title: fullTitle,
+            description: post.matter.description,
+            siteName: "Accounted",
+            publishedTime: post.matter.date,
+            authors: post.matter.author ? [post.matter.author] : undefined,
+            tags: post.matter.tags || undefined,
+            images: [
+                {
+                    url: ogImageUrl,
+                    width: 1200,
+                    height: 630,
+                    alt: fullTitle,
+                },
+            ],
+        },
+        twitter: {
+            card: "summary_large_image",
+            title: fullTitle,
+            description: post.matter.description,
+            images: [ogImageUrl],
+        },
     }
 }
 

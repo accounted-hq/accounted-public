@@ -1,14 +1,11 @@
-import {Metadata} from "next"
 import Link from "next/link"
 import {Button} from "@/components/ui/button"
 import {Badge} from "@/components/ui/badge"
 import {site} from "@/lib/site-config"
 import {Code, Globe, Shield, Users, Zap} from "lucide-react"
+import { generateMetadata, pageMetadata } from "@/lib/metadata"
 
-export const metadata: Metadata = {
-    title: "About",
-    description: "Learn about Accounted's mission to provide transparent, secure, and powerful accounting software for modern teams."
-}
+export const metadata = generateMetadata(pageMetadata.about)
 
 const values = [
     {

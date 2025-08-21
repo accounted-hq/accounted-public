@@ -1,4 +1,3 @@
-import {Metadata} from "next"
 import {ParityTable} from "@/components/site/parity-table"
 import {HostingOptions} from "@/components/site/hosting-options"
 import {ArchitectureOverview} from "@/components/site/architecture-overview"
@@ -6,11 +5,9 @@ import {Contributing} from "@/components/site/contributing"
 import {Button} from "@/components/ui/button"
 import Link from "next/link"
 import {site} from "@/lib/site-config"
+import { generateMetadata, pageMetadata } from "@/lib/metadata"
 
-export const metadata: Metadata = {
-    title: "Open Source",
-    description: "Run Accounted your way: use our hosted cloud or self-host with complete feature parity and transparent code."
-}
+export const metadata = generateMetadata(pageMetadata.openSource)
 
 export default function OpenSourcePage() {
     return (

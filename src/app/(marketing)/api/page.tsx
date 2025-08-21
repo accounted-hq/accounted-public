@@ -1,13 +1,10 @@
-import {Metadata} from "next"
 import {Badge} from "@/components/ui/badge"
 import {Button} from "@/components/ui/button"
 import {AlertCircle, ExternalLink, Lock, RefreshCw} from "lucide-react"
 import Link from "next/link"
+import { generateMetadata, pageMetadata } from "@/lib/metadata"
 
-export const metadata: Metadata = {
-    title: "API Documentation",
-    description: "OAuth-secured API with idempotency keys, stable error schema, and comprehensive endpoint documentation."
-}
+export const metadata = generateMetadata(pageMetadata.api)
 
 const authExample = `curl -X POST "https://my.accounted.app/api/oauth/token" \\
   -H "Content-Type: application/x-www-form-urlencoded" \\

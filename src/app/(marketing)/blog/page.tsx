@@ -1,13 +1,10 @@
-import {Metadata} from "next"
 import Link from "next/link"
 import {Badge} from "@/components/ui/badge"
 import {formatDate, getAllCategories, getAllPosts, getAllTags} from "@/lib/mdx"
 import {Calendar, Tag, User} from "lucide-react"
+import { generateMetadata, pageMetadata } from "@/lib/metadata"
 
-export const metadata: Metadata = {
-    title: "Blog",
-    description: "Insights on accounting, financial management, and building with Accounted. Technical articles and industry best practices."
-}
+export const metadata = generateMetadata(pageMetadata.blog)
 
 export default function BlogPage() {
     const posts = getAllPosts('blog')

@@ -1,13 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5edfb581-69c4-4771-8dbb-4907db9dd5e9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/Nunito-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/Nunito-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/Nunito.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/Nunito.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-Black.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-BlackItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-BoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-ExtraBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-ExtraBoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-ExtraLight.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-ExtraLightItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-LightItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-MediumItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-SemiBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-SemiBoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/NunitoSans/NunitoSans-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/NunitoSans/NunitoSans-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/NunitoSans/NunitoSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/NunitoSans/NunitoSans.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/NunitoSans/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/api/og/route.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.claude/settings.local.json" beforeDir="false" afterPath="$PROJECT_DIR$/.claude/settings.local.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(marketing)/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(marketing)/about/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(marketing)/api/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(marketing)/api/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(marketing)/blog/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(marketing)/blog/[slug]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(marketing)/blog/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(marketing)/blog/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(marketing)/changelog/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(marketing)/changelog/[slug]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(marketing)/changelog/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(marketing)/changelog/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(marketing)/docs/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(marketing)/docs/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(marketing)/features/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(marketing)/features/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(marketing)/open-source/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(marketing)/open-source/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(marketing)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(marketing)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(marketing)/pricing/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(marketing)/pricing/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(marketing)/security/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(marketing)/security/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;fabianeisenhut&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:accounted-hq/accounted-public.git&quot;,
+    &quot;accountId&quot;: &quot;4d81702a-64ed-4963-bdda-8b197daf7e2d&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="31YYO76dMuL7ImMYb4CZ7BOt3Yz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.Web: Client-Side.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/fabian/dev/accounted-public",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.Web: Server-Side.executor": "Debug",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/Users/fabian/dev/accounted-public/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Web: Server-Side">
+    <configuration name="Web: Client-Side" type="JavascriptDebugType" uri="http://localhost:8000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Web: Server-Side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Web: Client-Side" />
+      <item itemvalue="npm.Web: Server-Side" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-WS-252.23892.411" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5edfb581-69c4-4771-8dbb-4907db9dd5e9" name="Changes" comment="" />
+      <created>1755702437846</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755702437846</updated>
+      <workItem from="1755702439168" duration="3000" />
+      <workItem from="1755702510506" duration="24000" />
+      <workItem from="1755702589760" duration="31000" />
+      <workItem from="1755702691475" duration="6033000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
 </project>

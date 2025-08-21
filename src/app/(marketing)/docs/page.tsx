@@ -1,14 +1,11 @@
-import {Metadata} from "next"
 import Link from "next/link"
 import {Button} from "@/components/ui/button"
 import {Badge} from "@/components/ui/badge"
 import {site} from "@/lib/site-config"
 import {ArrowRight, Book, Code, ExternalLink, Terminal, Users} from "lucide-react"
+import { generateMetadata, pageMetadata } from "@/lib/metadata"
 
-export const metadata: Metadata = {
-    title: "Documentation",
-    description: "Complete documentation for Accounted - API reference, deployment guides, and integration examples."
-}
+export const metadata = generateMetadata(pageMetadata.docs)
 
 const docSections = [
     {
