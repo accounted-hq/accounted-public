@@ -4,76 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5edfb581-69c4-4771-8dbb-4907db9dd5e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/Nunito-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/Nunito-Italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/Nunito.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/Nunito.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-Black.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-BlackItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-BoldItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-ExtraBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-ExtraBoldItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-ExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-ExtraLight.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-ExtraLightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-ExtraLightItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-Italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-LightItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-MediumItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-SemiBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Nunito/static/Nunito-SemiBoldItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/NunitoSans/NunitoSans-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/NunitoSans/NunitoSans-Italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/NunitoSans/NunitoSans.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/NunitoSans/NunitoSans.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/NunitoSans/OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/og/route.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.claude/settings.local.json" beforeDir="false" afterPath="$PROJECT_DIR$/.claude/settings.local.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(marketing)/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(marketing)/about/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(marketing)/api/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(marketing)/api/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(marketing)/blog/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(marketing)/blog/[slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(marketing)/blog/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(marketing)/blog/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(marketing)/changelog/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(marketing)/changelog/[slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(marketing)/changelog/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(marketing)/changelog/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(marketing)/docs/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(marketing)/docs/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(marketing)/features/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(marketing)/features/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(marketing)/open-source/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(marketing)/open-source/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(marketing)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(marketing)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(marketing)/pricing/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(marketing)/pricing/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(marketing)/security/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(marketing)/security/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
-    </list>
+    <list default="true" id="5edfb581-69c4-4771-8dbb-4907db9dd5e9" name="Changes" comment="Refactor metadata generation for marketing pages, add privacy policy, and include Nunito Sans font files and licensing." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -101,8 +43,9 @@
     "JavaScript Debug.Web: Client-Side.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "develop",
     "js.debugger.nextJs.config.created.client": "true",
     "js.debugger.nextJs.config.created.server": "true",
     "junie.onboarding.icon.badge.shown": "true",
@@ -160,11 +103,35 @@
       <workItem from="1755702439168" duration="3000" />
       <workItem from="1755702510506" duration="24000" />
       <workItem from="1755702589760" duration="31000" />
-      <workItem from="1755702691475" duration="6033000" />
+      <workItem from="1755702691475" duration="6610000" />
     </task>
+    <task id="LOCAL-00001" summary="Refactor metadata generation for marketing pages, add privacy policy, and include Nunito Sans font files and licensing.">
+      <option name="closed" value="true" />
+      <created>1755773113011</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755773113011</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refactor metadata generation for marketing pages, add privacy policy, and include Nunito Sans font files and licensing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor metadata generation for marketing pages, add privacy policy, and include Nunito Sans font files and licensing." />
   </component>
 </project>
